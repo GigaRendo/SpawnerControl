@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "spawnercontrol",
+  "version": "${version}",
+  "name": "Spawner Control",
+  "description": "Selectively enables a specific iron farm spawner and disables all other spawners.",
+  "authors": [
+    "Kazu"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": []
+  },
+  "mixins": [
+    "spawnercontrol.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-language-kotlin": "*",
+    "fabric-api": "*"
+  }
+}
